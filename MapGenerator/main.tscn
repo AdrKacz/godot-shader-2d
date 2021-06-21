@@ -5,17 +5,22 @@
 
 [sub_resource type="ShaderMaterial" id=1]
 shader = ExtResource( 2 )
+shader_param/fill = 0.5
+shader_param/scale = 100
+shader_param/border = 0
+shader_param/seed = 59.429
+shader_param/smoothing = 3
 
 [node name="main" type="TextureRect"]
 material = SubResource( 1 )
-anchor_left = -0.00109719
+anchor_left = -0.0010972
 anchor_top = -0.000130831
 anchor_right = -0.00109719
 anchor_bottom = -0.000130831
-margin_left = 6.91779
-margin_top = 8.63217
-margin_right = 70.9178
-margin_bottom = 72.6322
+margin_left = 18.8051
+margin_top = 8.21507
+margin_right = 82.8051
+margin_bottom = 72.2151
 texture = ExtResource( 1 )
 __meta__ = {
 "_edit_use_anchors_": false
