@@ -1,0 +1,22 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://icon.png" type="Texture" id=1]
+[ext_resource path="res://shaders/map_generator.shader" type="Shader" id=2]
+
+[sub_resource type="ShaderMaterial" id=1]
+shader = ExtResource( 2 )
+
+[node name="main" type="TextureRect"]
+material = SubResource( 1 )
+anchor_left = -0.00109719
+anchor_top = -0.000130831
+anchor_right = -0.00109719
+anchor_bottom = -0.000130831
+margin_left = 6.91779
+margin_top = 8.63217
+margin_right = 70.9178
+margin_bottom = 72.6322
+texture = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
